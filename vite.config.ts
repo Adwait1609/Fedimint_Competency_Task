@@ -4,6 +4,8 @@ import topLevelAwait from 'vite-plugin-top-level-await' // Optional
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Fedimint_Competency_Task/', // Set the base path to match your repo name
+
   plugins: [
     wasm(),
     topLevelAwait(), // Optional
